@@ -1,0 +1,14 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "Jenkins and node example",
+  "main": "index.js",
+  "repository": "https://github.com/Joebbrien/jenkins-guide.git",
+  "author": "Joebbrian",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.4",
+    "mocha": "^6.0.2"
+  }
+}
