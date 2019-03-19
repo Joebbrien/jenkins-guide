@@ -21,6 +21,9 @@ pipeline {
         }
       }
       post {
+         success {
+            echo 'Docker images created successfuly.'
+        }
         failure {
             echo 'This build has failed. See logs for details.'
         }
