@@ -88,6 +88,11 @@ function sum(value1, value2){
 }
 
 
+function average(){
+
+  return "Average";
+}
+
 // Console output
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
